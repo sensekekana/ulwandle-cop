@@ -356,7 +356,19 @@ h2{
 .contact-section h1{
     margin-top: 15px;
 }
+.contact-info a {
+    display: block;              
+    color: #063b52;
+    text-decoration: none;     
+    margin-bottom: 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
 
+/* HOVER STATE */
+.contact-info a:hover {
+    color: #046ebb;
+}
 
 
 
